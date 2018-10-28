@@ -1,0 +1,24 @@
+{
+  "name": "find-a-friend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katiemoon1/find-a-friend.git"
+  },
+  "author": "Katie Moon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/katiemoon1/find-a-friend/issues"
+  },
+  "homepage": "https://github.com/katiemoon1/find-a-friend#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
+}
