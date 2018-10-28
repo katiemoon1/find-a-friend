@@ -13,3 +13,8 @@ app.use(html)
 // Setting up the express app to handle data parsing
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
+
+// Starts the server
+app.listen(PORT, function() {
+    console.log("Listening on PORT: " + PORT)
+})
