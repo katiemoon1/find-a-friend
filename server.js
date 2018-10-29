@@ -8,11 +8,13 @@ const app = express()
 // Set up the port for the project, allowing heroku to select the port when it is deployed
 var PORT = process.env.PORT || 3030
 
-app.use(api)
-app.use(html)
 // Setting up the express app to handle data parsing
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
+
+app.use(express.static(__dirname))
+app.use(api)
+app.use(html)
 
 // Starts the server
 app.listen(PORT, function() {

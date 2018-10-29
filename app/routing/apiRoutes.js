@@ -8,12 +8,13 @@ const router = express.Router()
 const friendData = require('../data/friends')
 
 router.get('/api/friends', function (req, res) {
-    return res.json(friendData)
+    res.json(friendData)
 })
 
 router.post('/api/friends', function (req, res) {
     friendData.push(req.body)
-    res.json
+    console.log(req.body)
+    res.json(friendData)
 })
 
 module.exports = router
