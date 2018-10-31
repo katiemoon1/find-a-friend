@@ -13,7 +13,12 @@ router.get('/api/friends', function (req, res) {
 
 router.post('/api/friends', function (req, res) {
     friendData.push(req.body)
-    console.log(req.body)
+    // console.log(req.body)
+    
+
+    var newScores = Object.values(req.body.scores)
+    console.log(newScores)
+
     res.json(friendData)
 })
 
