@@ -19,6 +19,7 @@
   "homepage": "https://github.com/katiemoon1/find-a-friend#readme",
   "dependencies": {
     "express": "^4.16.4",
+    "nodemon": "^1.18.7",
     "path": "^0.12.7"
   }
 }

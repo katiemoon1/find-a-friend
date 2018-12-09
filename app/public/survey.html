@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
    <!-- Important to have jquery before the bootstrap js file so the modal works -->
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
     <title>Friend Finder Survey</title>
 </head>
 <body>
@@ -176,16 +177,16 @@ $(".submit").on("click", function (event) {
         name: $("#name").val().trim(),
         photo: $("#photo").val().trim(),
         scores: [
-            $("#q1").val().trim(),
-            $("#q2").val().trim(),
-            $("#q3").val().trim(),
-            $("#q4").val().trim(),
-            $("#q5").val().trim(),
-            $("#q6").val().trim(),
-            $("#q7").val().trim(),
-            $("#q8").val().trim(),
-            $("#q9").val().trim(),
-            $("#q10").val().trim(),
+            parseInt($("#q1").val().trim()),
+            parseInt($("#q2").val().trim()),
+            parseInt($("#q3").val().trim()),
+            parseInt($("#q4").val().trim()),
+            parseInt($("#q5").val().trim()),
+            parseInt($("#q6").val().trim()),
+            parseInt($("#q7").val().trim()),
+            parseInt($("#q8").val().trim()),
+            parseInt($("#q9").val().trim()),
+            parseInt($("#q10").val().trim())
         ]
     }
 
