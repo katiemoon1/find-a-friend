@@ -8,7 +8,7 @@ Each user takes a survey and then is matched with a new friend!
 The application demonstrates an understanding of Express, HTML, CSS, jQuery and Javascript. 
 
 # How can users get started with the project?
-The user simply clicks on the survey button on the front pages, answers the questions, and gets matched with a friend!
+The user simply clicks on the survey button on the front pages, answers the questions, and gets matched with a friend! You can also check out the app on Heroku by following this link: https://justatestytest.herokuapp.com/. 
 
 # Where can users get help with the project? 
 If you experience a problem, please reach out to me!
