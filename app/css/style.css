@@ -1,5 +1,5 @@
 body {
-    background: url("../img/memphis-colorful.png")
+    background: url("../img/memphis-colorful.png");
 }
 
 .jumbotron {
@@ -19,19 +19,30 @@ a {
     padding: 10px;
 }
 
+.card {
+    margin: 20px;
+}
+
+.card-header {
+    background-color: #f9d4ce; 
+}
+
 footer {
     background-color: #f9d4ce;
     height: 50px;
+    flex: 1;
+    margin-top: auto;
 }
 
 .modal-title {
-    color: #6610f2;
+    color: gray;
+    background-color: #f9d4ce;
 }
 .modal-body {
     position: relative;
     text-align: center;
     height: 350px;
-    color: #6610f2;
+    color: gray;
 }
 
 #newFoundPhoto {
